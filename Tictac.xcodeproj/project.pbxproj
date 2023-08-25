@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B136EC52A9861C100FECCD9 /* Map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC42A9861C100FECCD9 /* Map1.swift */; };
+		7B136EC72A9872D100FECCD9 /* Map2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC62A9872D100FECCD9 /* Map2.swift */; };
+		7B136EC92A9885BF00FECCD9 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC82A9885BF00FECCD9 /* Sound.swift */; };
+		7B136ECC2A9885D600FECCD9 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B136ECA2A9885D600FECCD9 /* gameover.mp3 */; };
+		7B136ECD2A9885D600FECCD9 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B136ECB2A9885D600FECCD9 /* winning.mp3 */; };
+		7B136ECF2A9886A600FECCD9 /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136ECE2A9886A600FECCD9 /* XOButton.swift */; };
 		7B376C392A95D3C400722D1C /* TictacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B376C382A95D3C400722D1C /* TictacApp.swift */; };
 		7B376C3B2A95D3C400722D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B376C3A2A95D3C400722D1C /* ContentView.swift */; };
 		7B376C3D2A95D3C500722D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B376C3C2A95D3C500722D1C /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B136EC42A9861C100FECCD9 /* Map1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map1.swift; sourceTree = "<group>"; };
+		7B136EC62A9872D100FECCD9 /* Map2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map2.swift; sourceTree = "<group>"; };
+		7B136EC82A9885BF00FECCD9 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		7B136ECA2A9885D600FECCD9 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		7B136ECB2A9885D600FECCD9 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		7B136ECE2A9886A600FECCD9 /* XOButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
 		7B376C352A95D3C400722D1C /* Tictac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tictac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B376C382A95D3C400722D1C /* TictacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TictacApp.swift; sourceTree = "<group>"; };
 		7B376C3A2A95D3C400722D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 			children = (
 				7B376C382A95D3C400722D1C /* TictacApp.swift */,
 				7B376C3A2A95D3C400722D1C /* ContentView.swift */,
+				7B136ECE2A9886A600FECCD9 /* XOButton.swift */,
+				7B136EC42A9861C100FECCD9 /* Map1.swift */,
+				7B136EC62A9872D100FECCD9 /* Map2.swift */,
+				7B136EC82A9885BF00FECCD9 /* Sound.swift */,
+				7B136ECA2A9885D600FECCD9 /* gameover.mp3 */,
+				7B136ECB2A9885D600FECCD9 /* winning.mp3 */,
 				7B376C3C2A95D3C500722D1C /* Assets.xcassets */,
 				7B376C3E2A95D3C500722D1C /* Preview Content */,
 			);
@@ -127,6 +145,8 @@
 			files = (
 				7B376C402A95D3C500722D1C /* Preview Assets.xcassets in Resources */,
 				7B376C3D2A95D3C500722D1C /* Assets.xcassets in Resources */,
+				7B136ECC2A9885D600FECCD9 /* gameover.mp3 in Resources */,
+				7B136ECD2A9885D600FECCD9 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B136EC92A9885BF00FECCD9 /* Sound.swift in Sources */,
 				7B376C3B2A95D3C400722D1C /* ContentView.swift in Sources */,
+				7B136ECF2A9886A600FECCD9 /* XOButton.swift in Sources */,
+				7B136EC72A9872D100FECCD9 /* Map2.swift in Sources */,
 				7B376C392A95D3C400722D1C /* TictacApp.swift in Sources */,
+				7B136EC52A9861C100FECCD9 /* Map1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
